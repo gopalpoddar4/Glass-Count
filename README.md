@@ -1,4 +1,4 @@
-# 🥛 Glass Count - Your Daily Water Intake Tracker
+#  Glass Count - Your Daily Water Intake Tracker
 
 Glass Count is a minimal and intuitive Android app designed to help you stay hydrated by effortlessly tracking your daily water intake. With its clean UI and widget support, it allows you to log your water consumption directly from your home screen — no need to even open the app!
 
