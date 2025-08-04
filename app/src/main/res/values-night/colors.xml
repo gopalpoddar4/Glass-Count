@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="whiteBlack">#000000</color>
+    <color name="primary_color">#4EBFED</color>
+    <color name="primary_light">#3A9CBF</color>
+    <color name="accent">#2da9e2</color>
+    <color name="background">#0F1C2E</color>
+    <color name="background_dailog">#CD0F1C2E</color>
+    <color name="text_primary">#F1F1F1</color>
+    <color name="text_secondary">#A9BCD0</color>
+    <color name="border_divider">#33475B</color>
+    <color name="icon_active">#72D6F9</color>
+    <color name="icon_inactive">#5C7B92</color>
+    <color name="card_surface">#1A2B3D</color>
+    <color name="chat">#18334d</color>
+    <color name="bottom_sheat">#1A2B3D</color>
+    <color name="bottom_sheat_card_bg">#13243B</color>
+</resources>

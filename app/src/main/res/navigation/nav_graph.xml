@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_introFragment"
+            app:destination="@id/introFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_achivementFragment"
+            app:destination="@id/achivementFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.onboard.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_askNameFragment"
+            app:destination="@id/askNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/askNameFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.onboard.AskNameFragment"
+        android:label="fragment_ask_name"
+        tools:layout="@layout/fragment_ask_name" >
+        <action
+            android:id="@+id/action_askNameFragment_to_askGoalFragment"
+            app:destination="@id/askGoalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/askGoalFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.onboard.AskGoalFragment"
+        android:label="fragment_ask_goal"
+        tools:layout="@layout/fragment_ask_goal" >
+        <action
+            android:id="@+id/action_askGoalFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.AnalyticsFragment"
+        android:label="fragment_analytics"
+        tools:layout="@layout/fragment_analytics" >
+        <action
+            android:id="@+id/action_analyticsFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_splashFragment"
+            app:destination="@id/splashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/achivementFragment"
+        android:name="com.gopalpoddar4.glasscount.ui.AchivementFragment"
+        android:label="fragment_achivement"
+        tools:layout="@layout/fragment_achivement" >
+        <action
+            android:id="@+id/action_achivementFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+
+    </fragment>
+</navigation>
