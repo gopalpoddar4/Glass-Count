@@ -14,7 +14,6 @@ In our fast-paced lives, we often forget to drink enough water. Glass Count is h
 
 - ✅ **Log water intake in a single tap**
 - 📈 **Weekly graph to visualize hydration trends**
-- 🧊 **Customizable glass size (ml)**
 - ⏰ **Widget support** — log without opening the app
 - 🔔 **Reminder system** to keep you on track
 - 🎯 **Daily target goal tracking**
@@ -26,10 +25,9 @@ In our fast-paced lives, we often forget to drink enough water. Glass Count is h
 ## 📱 How to Use
 
 1. **Install** the app and set your daily water goal.
-2. Tap the **“+” button** to log each glass of water you drink.
+2. Tap the **Progress button** to log each glass of water you drink.
 3. Check your **progress graph** to stay motivated.
 4. Use the **home screen widget** for instant logging.
-5. Customize glass size, units, and reminders from settings.
 
 ---
 
@@ -39,7 +37,7 @@ In our fast-paced lives, we often forget to drink enough water. Glass Count is h
 - **UI Design:** XML  
 - **Architecture:** MVVM (Model-View-ViewModel)  
 - **Data Handling:** Room Database, LiveData  
-- **Background Work:** WorkManager  
+- **Background Work:** AlarmManager 
 - **Graph:** MPAndroidChart  
 - **Widget:** AppWidgetProvider, RemoteViews  
 - **Other Tools:** ViewModel, Coroutines, SharedPreferences
